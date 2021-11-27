@@ -17,4 +17,9 @@ public class LabsApplication {
     public String home() {
         return "Hello! K8S World from Jenkins";
     }
+    
+    @RequestMapping("/haohao")
+    public String home() {
+        return "haohao";
+    }
 }
