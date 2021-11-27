@@ -19,7 +19,7 @@ public class LabsApplication {
     }
     
     @RequestMapping("/haohao")
-    public String home() {
+    public String home2() {
         return "haohao";
     }
 }
