@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: train-app
-          image: nasrisalah/app-k8s:11
+          image: hitchenwenhao521/springbootapp:5.6
           ports:
             - containerPort: 8080
           livenessProbe:
