@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: app-service
-  namespace: haohao
+  namespace: dandan
 spec:
   type: LoadBalancer
   selector:
@@ -17,7 +17,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: app-deployment
-  namespace: haohao
+  namespace: dandan
   labels:
     app: train-app
 spec:
