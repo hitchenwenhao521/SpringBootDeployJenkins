@@ -22,4 +22,9 @@ public class LabsApplication {
     public String home2() {
         return "haohao";
     }
+
+    @RequestMapping("/dandan")
+    public String dandan() {
+        return "dandan";
+    }
 }
