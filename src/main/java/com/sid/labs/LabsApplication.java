@@ -25,6 +25,6 @@ public class LabsApplication {
 
     @RequestMapping("/dandan")
     public String dandan() {
-        return "dandan";
+        return "biaoge";
     }
 }
